@@ -13,8 +13,8 @@ const run = async (client, interaction) => {
 }
 
 module.exports = {
-  name: "",
-  description: "",
+  name: "timeout",
+  description: "This is the command to timeout unruly members :)",
   perm: "MODERATE_MEMBERS",
   options: [
     {
