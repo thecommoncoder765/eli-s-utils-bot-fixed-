@@ -27,7 +27,14 @@ module.exports = {
       name: "duration",
       description: "How long you want to timeout said user",
       type: "NUMBER",
-      choices: durations
+      choices: durations,
+      required: true
+    },
+    {
+      name: "reason",
+      description: "Reason for timeout",
+      type: "STRING",
+      required: false
     }
   ]
 }
