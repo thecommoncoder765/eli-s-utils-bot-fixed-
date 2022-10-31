@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-const getFile = (path, ending) => {
+const getFiles = (path, ending) => {
   return fs.readdirSync(path).filter(f => f.endsWith(ending))
 }
 
